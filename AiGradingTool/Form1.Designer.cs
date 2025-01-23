@@ -47,11 +47,11 @@
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(252, 9);
+            label1.Location = new Point(252, 73);
             label1.Name = "label1";
-            label1.Size = new Size(131, 15);
+            label1.Size = new Size(143, 15);
             label1.TabIndex = 1;
-            label1.Text = "Please Click the Button!";
+            label1.Text = "Click the Button. Or else...";
             label1.Click += label1_Click;
             // 
             // Form1
