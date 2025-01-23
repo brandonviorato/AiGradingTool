@@ -30,14 +30,15 @@
         {
             button1 = new Button();
             label1 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(12, 157);
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button1.Location = new Point(12, 112);
             button1.Name = "button1";
-            button1.Size = new Size(617, 71);
+            button1.Size = new Size(409, 71);
             button1.TabIndex = 0;
             button1.Text = "Click Me!";
             button1.UseVisualStyleBackColor = true;
@@ -47,18 +48,27 @@
             // 
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(252, 73);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(143, 15);
+            label1.Size = new Size(127, 15);
             label1.TabIndex = 1;
-            label1.Text = "Click the Button. Or else...";
+            label1.Text = "Please set the message";
             label1.Click += label1_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textBox1.Location = new Point(12, 27);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(409, 23);
+            textBox1.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(641, 277);
+            ClientSize = new Size(433, 195);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form1";
@@ -71,5 +81,6 @@
 
         private Button button1;
         private Label label1;
+        private TextBox textBox1;
     }
 }
