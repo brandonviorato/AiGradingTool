@@ -43,5 +43,12 @@ namespace AiGradingTool
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // return home to MainPage
+            MainPage newForm = new MainPage();
+            newForm.Show();
+        }
     }
 }
