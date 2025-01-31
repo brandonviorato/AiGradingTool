@@ -37,10 +37,10 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(17, 187);
+            button1.Location = new Point(17, 186);
             button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(584, 118);
+            button1.Size = new Size(583, 118);
             button1.TabIndex = 0;
             button1.Text = "Click Me!";
             button1.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@
             textBox1.Location = new Point(17, 98);
             textBox1.Margin = new Padding(4, 5, 4, 5);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(583, 31);
+            textBox1.Size = new Size(582, 31);
             textBox1.TabIndex = 2;
             // 
             // button2
@@ -81,7 +81,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(619, 325);
+            ClientSize = new Size(618, 324);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(label1);
